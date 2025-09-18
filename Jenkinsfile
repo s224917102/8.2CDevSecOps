@@ -1,6 +1,7 @@
 pipeline { 
   agent any 
- 
+  tools { nodejs "NodeJS-Local" }
+  
   stages { 
     stage('Checkout') { 
       steps { 
