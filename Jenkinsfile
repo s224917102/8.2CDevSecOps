@@ -34,7 +34,6 @@ pipeline {
         '''
       }
     }
-
     stage('NPM Audit (Security Scan)') {
       steps {
         sh '''
