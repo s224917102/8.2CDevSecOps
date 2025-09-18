@@ -1,7 +1,7 @@
 pipeline {
   agent any
   
-# commit to see chanfes
+# commit to see change
   
   stages {
     stage('Checkout') {
