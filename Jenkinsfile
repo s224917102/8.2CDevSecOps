@@ -1,7 +1,7 @@
 pipeline {
   agent any
   
-// changes some change some 
+// change asdasd
   
   stages {
     stage('Checkout') {
